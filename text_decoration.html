@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>3 - Decoração de texto CSS</h1>
+
+    <p>A propriedade CSS é usada para controlar a aparência de linhas decorativas no texto. text-decoration</p>
+    <p>É uma abreviação para as seguintes propriedades individuais:</p>
+
+    <ol>
+        <li>text-decoration-line</li>
+        <li>text-decoration-color</li>
+        <li>text-decoration-style</li>
+        <li>text-decoration-thickness</li>
+    </ol>   
+
+<h2>3.1 text-decoration-line</h2>
+<p>A propriedade CSS define o tipo de linha de decoração adicionada ao texto. text-decoration-line</p>
+<p>Esta propriedade pode ter um ou mais dos seguintes valores:</p>
+<p>Esta propriedade é usada para definir o tipo de decoração de texto. Os valores possíveis são:</p>
+<ul class="o-minha_lista">
+    <li>none - Valor padrão. Não exibe nenhuma linha de decoração.</li>
+    <li>underline - A linha de decoração é exibida abaixo do texto.</li>
+    <li>overline - A linha decorativa é exibida sobre o texto.</li>
+    <li>line-through - A linha de decoração é exibida através do texto.</li>
+</ul> 
+
+<h3>3.1.1 text-decoration-line: none</h3>
+<p>Nenhuma linha decorativa</p>
+<br>
+
+<h3>3.1.2 text-decoration-line: underline</h3>
+<div class="underline">
+    <p>Exibe uma linha decorativa abaixo do texto.</p>
+</div>
+<br>
+
+<h3>3.1.3 text-decoration-line: overline</h3>
+<div class="overline">
+        <p>Exibe uma linha decorativa acima do texto.</p>   
+</div>
+<br>
+
+<h3>3.1.4 text-decoration-line: line-through</h3>
+<div class="line-through">
+    <p>Exibe uma linha decorativa através do texto.</p>
+</div>  
+
+<h3>3.1.5 text-decoration-line: underline overline</h3>
+<div class="underlineoverline">
+    <p>Exibe uma linha decorativa acima e abaixo do texto.</p>  
+</div>
+<br>
+
+<h2>3.2 text-decoration-color</h2>
+<p>A propriedade CSS é usada para definir a cor da linha decorativa. text-decoration-color</p>
+
+<p>Essa propriedade pode ter um dos seguintes valores:</p>
+<ul class="o-minha_lista">
+    <li class="underlinered">color - Define a cor da linha decorativa. Pode ser especificada por nome, valor hexadecimal ou valor RGB.</li>
+    <li class="inherit">text-decoration-color: inherit - A linha decorativa herda a cor do elemento pai.</li>
+    <br>
+    <li class="underlineoverlinineyellow">.underlineoverlinineyellow{
+    text-decoration-line: underline overline;
+    text-decoration-color: yellow red;  
+}- Define a cor amarela para a linha decorativa.</li>
+</ul>
+
+<h2>3.3 text-decoration-style</h2>
+<p>A propriedade CSS é usada para definir o estilo da linha decorativa. text-decoration-style</p>
+
+<p>Essa propriedade pode ter um dos seguintes valores:</p>
+<ul class="o-minha_lista">
+    <li>solid - Linha contínua.</li>
+    <li>dotted - Linha pontilhada.</li>
+    <li>dashed - Linha tracejada.</li>
+    <li>wavy - Linha ondulada.</li>
+    <li>double - Linha dupla.</li>
+</ul>   
+
+<h3>3.3.1 text-decoration-style: solid</h3>
+    <div class="line_solid">
+        <p>Linha contínua.</p>
+        <p>.line_solid{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    }</p>
+</div>
+
+<br>
+
+<h3>3.3.2 text-decoration-style: dotted</h3>
+<div class="line_dotted_blue">
+    <p>Linha pontilhada.</p>
+    <p>.line_dotted_blue{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: blue;
+    }</p>
+    <br>
+</div>
+
+
+<h3>3.3.3 text-decoration-style: dashed</h3>
+<div class="line_dashed">
+    <p>>Linha tracejada.</p>
+    <p>.line_dashed{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    }</p>
+</div>
+<br>
+
+<h3>3.3.4 text-decoration-style: wavy</h3>
+<div class="line_wavy">
+    <p>Linha ondulada.</p>
+    <p>.line_wavy{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    }</p>
+</div>
+<br>
+
+<h3>3.3.5 text-decoration-style: double</h3>
+<div class="line_double_red">
+    <p>Linha dupla.</p>
+    <p>.line_double_red{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+    }</p>
+</div>
+<br>
+
+<h2>3.4 text-decoration-thickness</h2>
+<p>A propriedade CSS é usada para definir a espessura da linha decorativa.</p>
+
+<h3>3.4.1 text-decoration-thickness: Xpx</h3>
+<div class="line_thickness2px">
+    <p>Define a espessura da linha decorativa como 2 pixels.</p>
+    <p>.line_thickness{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    }</p>   
+</div>
+<br>
+
+<div class="line_thickness10px">
+    <p>Define a espessura da linha decorativa como 10 pixels.  O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. </p>
+    <p>.line_thickness{
+    text-decoration-line: underline;
+    text-decoration-thickness: 10px;
+    }</p>   
+</div>
+
+<h3>3.4.2 text-decoration-thickness: auto</h3>
+<div class="line_thickness_auto">
+    <p>A propriedade text-decoration-thickness: auto define que a espessura da linha decorativa será escolhida automaticamente pelo navegador.</p>
+Esse é o valor padrão (default) da propriedade se você não especificar nenhum outro.</p>
+
+<p>Como o navegador calcula o auto?</p>
+<ul class="o-minha_lista"> 
+    <li>Baseado na fonte: O navegador analisa a fonte que está sendo usada (font-family) e o tamanho dela (font-size).</li>
+    <li>Design da tipografia: Muitas fontes modernas possuem metadados embutidos que sugerem ao navegador a espessura ideal e a posição para o sublinhado, garantindo que o traço combine com o peso visual das letras.</li>
+    <li>Proporcionalidade: Se você aumentar o tamanho do texto, o navegador aumentará a espessura da linha automaticamente para que ela não fique fina ou grossa demais.</li>
+</ul>
+
+    <p>Define a espessura da linha decorativa como automática.</p>
+    <p>.line_thickness{
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;
+    }</p>
+</div>
+<br>    
+
+<h3>3.4.3 text-decoration-thickness: from-font</h3>
+    <p>Define a espessura da linha decorativa com base na fonte utilizada.</p>
+    <div class="line_thickness_from_font01">
+            <p>Exemplo 01: .line_thickness{
+        text-decoration-line: underline;
+        text-decoration-thickness: from-font;
+        }</p>   
+    </div>
+
+    <div class="line_thickness_from_font02">
+        <p>Exemplo 02: .line_thickness{
+        text-decoration-line: underline;
+        text-decoration-thickness: from-font;
+        }</p>
+    </div>
+<br>    
+
+
+<h3>3.4.4 text-decoration-thickness: 0.1em</h3>
+<div class="line_thickness_01em">
+    <p>Define a espessura da linha decorativa como 0.1em.</p>
+    <p>O que significa 0.1em: A unidade em é relativa ao tamanho da fonte (font-size) do próprio elemento. Portanto, 0.1em significa que a linha terá uma espessura equivalente a 10% do tamanho da letra atual (por exemplo, se o texto tem font-size: 20px, a linha terá 2px de espessura).</p>
+    <p>.line_thickness{
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1em;
+    }</p>
+</div>
+<br>
+<div class="line_thickness_05em">
+    <p>Define a espessura da linha decorativa como 0.5em.</p>
+    <p>O que significa 0.5em: A unidade em é relativa ao tamanho da fonte (font-size) do próprio elemento. Portanto, 0.5em significa que a linha terá uma espessura equivalente a 50% do tamanho da letra atual (por exemplo, se o texto tem font-size: 20px, a linha terá 10px de espessura).</p>
+    <p>.line_thickness{
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1em;
+    }</p>
+</div>
+
+
+</body>
+</html>

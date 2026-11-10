@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <h1>2 - Alinhamento de texto CSS</h1>
+   <p>Alinhamento e direção do texto em CSS</p>
+   <p>Neste capítulo você aprenderá sobre as seguintes propriedades:</p>
+   <ol>
+       <li>text-align</li>
+       <li>text-align-last</li>
+       <li>vertical-align</li>
+       <li>direction</li>
+       <li>unicode-bidi</li>
+   </ol>
+
+   <h2>2.1 Text-alignment - Alinhamento de texto</h2>
+   <p>Essa propriedade text-align é usada para definir o alinhamento horizontal de um texto.</p>
+   <p>Essa propriedade pode ter um dos seguintes valores:</p>
+   <ol>
+       <li>left</li>
+       <li>right</li>
+       <li>center</li>
+       <li>justify</li>
+   </ol>  
+
+
+       <h3>2.1.1 left </h3>
+       <p class="left">Alinha o texto à esquerda >>  text-align: left </p>
+       <h3>2.1.2 right </h3>
+       <p class="right">Alinha o texto à direita >>  text-align: right </p>
+       <h3>2.1.3 center</h3>
+       <p class="center">Centraliza o texto >>  text-align: center </p>
+       <h3>2.1.4 justify </h3>
+       <p class="justify">O efeito de "esticar" (justificar) só acontece visualmente quando o texto é longo o suficiente para quebrar em duas ou mais linhas. O navegador espalha as palavras das linhas de cima para que as margens esquerda e direita fiquem retas, mas deixa a última linha alinhada à esquerda. >>  text-align: justify </p>
+   
+
+   <h2>2.2 Propriedade CSS text-align-last</h2>
+    <p>Essa propriedade text-align-last é usada para definir o alinhamento da última linha de um texto.</p>
+<ol>
+  <li>auto- Valor padrão. A última linha é justificada e alinhada à esquerda.</li>
+  <li>left- A última linha está alinhada à esquerda;</li>
+  <li>right- A última linha está alinhada à direita;</li>
+  <li>center- A última linha está alinhada ao centro;</li>
+  <li>justify- A última linha está justificada, assim como as demais;</li>
+  <li>start- A última linha está alinhada com o início da linha;</li>
+  <li>end- A última linha está alinhada com a extremidade da linha.</li>
+</ol>
+
+ <h3>2.2.1 text-align-last: auto</h3>
+ <p class="auto">A última linha é justificada e alinhada à esquerda. >>  text-align-last: auto</p>     
+ <p class="auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases</p>
+ <p>É o padrão não precisa ser especificado.</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases</p>
+ 
+ <h3>2.2.2 text-align-last: left</h3>
+ <p class="left">A última linha está alinhada à esquerda. >>  text-align-last: left</p>
+ <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases</p> 
+ <p>Mesma configuração que o padrão, não precisa ser especificado.</p>
+
+ <h3>2.2.3 text-align-last: right</h3>
+<div class="a">
+  <p>A última linha está alinhada à direita. >>  text-align-last: right </p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases </p>
+</div>
+
+<h3>2.2.4 text-align-last: center</h3>
+<div class="b">
+  <p>A última linha está alinhada ao centro. >>  text-align-last: center </p>
+  <p>O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases </p>
+</div>
+
+<h3>2.2.5 text-align-last: justify</h3>
+<div class="c">
+  <p>A última linha está alinhada com justificação. >>  text-align-last: justify </p>
+  <p>O resultado visual no parágrafo longo será todas as linhas perfeitamente quadradas, inclusive a última, criando um efeito de bloco perfeito. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.</p>
+</div>
+
+<h3>2.2.6 text-align-last: start</h3>
+<div class="d">
+  <p>A última linha está alinhada com o início da linha. >>  text-align-last: start </p>
+  <p>O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.</p>
+</div>
+<h3>2.2.7 text-align-last: end</h3>
+<div class="e">
+  <p>A última linha está alinhada com a extremidade da linha. >>  text-align-last: end </p>
+  <p>O que faz: Controla especificamente o alinhamento da última linha do bloco de texto. O valor end: Alinha o texto ao "fim" do fluxo de leitura. Em idiomas lidos da esquerda para a direita (como o português ou inglês), o fim é o lado direito. Se o texto estivesse em um idioma lido da direita para a esquerda (como o árabe), o fim seria o lado esquerdo. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.</p>  
+</div>
+
+<h2>2.3 Alinhamento vertical<h2></h2>
+<p>Essa vertical-align propriedade define o alinhamento vertical de um elemento.</p>
+
+<p>Essa propriedade pode ter um dos seguintes valores:</p>
+<ol>
+  <li>baseline - Valor padrão. O elemento está alinhado com a linha de base do elemento pai.</li>
+  <li>length/% - Eleva ou abaixa um elemento pelo comprimento ou porcentagem especificados</li>
+  <li>sub - O elemento está alinhado com a linha de base do subscrito do elemento pai.</li>
+  <li>super - O elemento está alinhado com a linha de base do sobrescrito do elemento pai.</li>
+  <li>top - O elemento está alinhado com o topo do elemento mais alto da linha.</li>
+  <li>text-top - O elemento está alinhado com a parte superior da fonte do elemento pai.</li>        
+  <li>middle - O elemento é posicionado no meio do elemento pai.</li>
+  <li>bottom - O elemento está alinhado com o elemento mais baixo da linha.</li>
+  <li>text-bottom - O elemento está alinhado com a parte inferior da fonte do elemento pai.</li>
+</ol>
+
+<h3>2.3.1 vertical-align: baseline</h3>
+
+  <p>O elemento está alinhado com a linha de base do elemento pai. >>  vertical-align: baseline </p>
+  <img src="img01.jpeg" alt="Imagem 01"> Texto da imagem 01. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. 
+<br>
+
+<h3>2.3.2 vertical-align: length/% </h3>
+  <p>Eleva ou abaixa um elemento pelo comprimento ou porcentagem especificados. >>  vertical-align: length/% </p>
+  
+  <p><-- Exemplo 1: Porcentagem Menor que Zero --></p>
+
+  <img src="img02.jpeg" class="img-length_negativo"> 
+  Texto com porcentagem menor (-1000%). A imagem desce. O lurem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. 
+
+
+<p><-- Exemplo 2: Porcentagem Maior que Zero --></p>
+<p class="img-length_positivo">
+  <img src="img02.jpeg" alt="Imagem 02" class="img-length_positivo"> 
+  Texto com porcentagem maior (1000%). A imagem sobe. O lurem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.
+</p>
+  
+<h3>2.3.3 vertical-align: sub</h3>
+  <p>O elemento está alinhado com a linha de base do subscrito do elemento pai. >>  vertical-align: sub </p>
+  <img src="img03.jpeg" alt="Imagem 03" class="img-sub"> Texto da imagem 03. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.    
+
+<h3>2.3.4 vertical-align: super</h3>
+  <p>O elemento está alinhado com a linha de base do sobrescrito do elemento pai. >>  vertical-align: super </p>
+  <img src="img03.jpeg" alt="Imagem 03" class="img-super"> Texto da imagem 04. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.  
+
+<h3>2.3.5 vertical-align: top</h3>
+  <p>O elemento está alinhado com o topo do elemento mais alto da linha. >>  vertical-align: top </p>
+  <img src="img03.jpeg" alt="Imagem 03" id="img-top"> Texto da imagem 05. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.
+
+<h3>2.3.6 vertical-align: text-top</h3>
+  <p>O elemento está alinhado com a parte superior da fonte do elemento pai. >>  vertical-align: text-top </p>
+  <img src="img03.jpeg" alt="Imagem 03" id="img-text-top"> Texto da imagem 06. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.  
+
+<h3>2.3.7 vertical-align: middle</h3>
+  <p>O elemento é posicionado no meio do elemento pai. >>  vertical-align: middle </p>
+  <img src="img03.jpeg" alt="Imagem 03" id="img-middle"> Texto da imagem 07. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.  
+
+<h3>2.3.8 vertical-align: bottom</h3>
+  <p>O elemento está alinhado com o elemento mais baixo da linha. >>  vertical-align: bottom </p>
+  <img src="img03.jpeg" alt="Imagem 03" id="img-bottom"> Texto da imagem 08. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases.
+
+<h3>2.3.9 vertical-align: text-bottom</h3>
+  <p>O elemento está alinhado com a parte inferior da fonte do elemento pai. >>  vertical-align: text-bottom </p>
+  <img src="img03.jpeg" alt="Imagem 03" id="img-text-bottom"> Texto da imagem 09. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. O Lorem ipsum é um texto fictício em latim embaralhado usado na indústria gráfica e de design apenas como preenchimento visual (texto de marcação), não tendo uma tradução direta ou significado real que faça sentido em frases. 
+
+<h2>2.4 Propriedade CSS direction</h2>
+<p>Essa propriedade direction é usada para definir a direção do texto.</p>
+<ol>
+  <li>ltr - Valor padrão. O texto é exibido da esquerda para a direita.</li>
+  <li>rtl - O texto é exibido da direita para a esquerda.</li>
+</ol>
+
+<h3>2.4.1 direction: ltr</h3>
+<p id="ltr">Este é um exemplo de texto exibido da esquerda para a direita.  </p>
+<h3>2.4.2 direction: rtl</h3>
+<p id="rtl">Este é um exemplo de texto exibido da direita para a esquerda.</p>    
+
+
+<h2>2.5 Propriedade CSS unicode-bidi</h2>
+<p>Essa propriedade unicode-bidi é usada para definir o comportamento do texto bidirecional.</
+<ol>
+  <li>normal - Valor padrão. O texto é exibido normalmente.</li>
+  <li>embed - O texto é exibido de acordo com a direção do elemento pai.</li>
+  <li>bidi-override - O texto é exibido de acordo com a direção do elemento pai, mas os caracteres são exibidos na ordem inversa.</li>  
+  </ol>
+
+  <h3>2.5.1 unicode-bidi: normal</h3>
+  <div class="unicode_bidi_normal"  >
+    <p>O texto é exibido normalmente. >>  unicode-bidi: normal </p>
+    <p>O Lorem ipsum é um texto fictício em latim embaralhado usado</p>
+    </div>
+
+    <h3>2.5.2 unicode-bidi: embed</h3>
+    <div class="unicode_bidi_embed"  >
+      <p>O texto é exibido de acordo com a direção do elemento pai. >>  unicode-bidi: embed </p>
+      <p>O Lorem ipsum é um texto fictício em latim embaralhado usado</p>
+    </div>
+
+    <h3>2.5.3 unicode-bidi: bidi-override</h3>
+    <div class="unicode_bidi_bidi-override"  >
+      <p>O texto é exibido de acordo com a direção do elemento pai, mas os caracteres são exibidos na ordem inversa. >>  unicode-bidi: bidi-override </p>
+      <p>O Lorem ipsum é um texto fictício em latim embaralhado usado</p>
+    </div>
+
+
+
+
+</body>
+</html>

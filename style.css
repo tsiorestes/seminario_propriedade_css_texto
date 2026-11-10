@@ -1,0 +1,276 @@
+h1 {
+
+    color: red;
+
+}
+
+p {
+  text-indent:  0px; /* Altere o valor para o tamanho do recuo que desejar */
+}
+
+ol.o_lista_ordenada {
+    list-style-type: decimal; /* Define o estilo da lista como decimal */
+    list-style-position: inside; /* Garante que os números fiquem dentro do bloco de texto */
+    width: 100%;                 /* Dá espaço para o texto se mover */
+    display: block;              /* Garante o comportamento padrão de bloco */
+    padding: 0;
+    color: black
+}       
+
+#o_cor_name {
+    color: red;
+}
+
+#o_cor_hex {
+       color: #ff0000;
+}
+#o_cor_rgb {
+    color: rgb(255, 0, 0);
+}  
+
+ul.o-minha_lista {
+    list-style-type: disc;
+    list-style-position: inside; /* Garante que a bolinha vá junto */
+  width: 100%;                 /* Dá espaço para o texto se mover */
+  display: block;              /* Garante o comportamento padrão de bloco */
+  padding: 0;
+}  
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+
+.auto{
+    text-align-last: auto
+}
+
+.left{
+    text-align-last: left
+}   
+
+div.a {
+  text-align: justify;  /* For Edge */
+  text-align-last: right;
+}
+
+div.b {
+  text-align: justify; /* For Edge */
+  text-align-last: center;
+}
+
+div.c {
+  text-align: justify; /* For Edge */
+  text-align-last: justify;
+}
+
+div.d {
+  text-align: justify; /* For Edge */
+  text-align-last: start;
+}       
+
+div.e {
+  text-align: justify; /* For Edge */
+  text-align-last: end;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}       
+
+.line-through {
+    text-decoration: line-through;
+}       
+
+.underlineoverline {
+    text-decoration: underline overline;
+}   
+.underlinered {
+ text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+.inherit {
+    text-decoration-line: underline;
+    text-decoration-color: inherit;
+}   
+
+.underlineoverlinineyellow{
+    text-decoration-line: underline overline;
+    text-decoration-color: yellow;  
+}
+
+.line_solid{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.line_double_red{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.line_dotted_blue{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: blue;
+}
+
+.line_dashed{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+.line_wavy{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.line_thickness_auto{
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;
+}
+
+.line_thickness_from_font01 {
+font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-style: italic;
+    color: #2c3e50;
+
+    text-decoration-line: underline;
+    text-decoration-thickness: from-font;
+    text-decoration-color: red;
+}
+
+/* Classe para a Fonte Grossa (Rubik Mono One) */
+.line_thickness_from_font02 {
+    font-family: 'Rubik Mono One', 
+    font-size: 32px; /* Mesmo tamanho de fonte */
+    color: #333;
+
+    text-decoration-line: underline;
+    text-decoration-thickness: from-font;
+    text-decoration-color: blue;
+}
+
+.line_thickness2px {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}       
+
+.line_thickness10px {
+    text-decoration-line: underline;
+    text-decoration-thickness: 10px;
+
+    line-height: 2;
+}
+
+.line_thickness_01em {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1em;
+}   
+
+.line_thickness_05em {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.5em;
+
+    line-height: 1.6;
+}
+
+.baseline {
+  vertical-align: baseline; /* Alinha a base da imagem com a base do texto */
+}
+
+.img-length_negativo {
+  /* 25% de 32px = 8px. Como é negativo, a imagem DESCE 8px da linha de base */
+  vertical-align: -1000%
+}
+
+.img-length_positivo {
+  /* 50% de 32px = 16px. Como é positivo, a imagem SOBE 16px da linha de base */
+  vertical-align: 1000%; 
+}
+
+.img-sub {
+  vertical-align: sub; /* Alinha a imagem como subscrito */
+}   
+
+.img-super {
+  vertical-align: super; /* Alinha a imagem como sobrescrito */
+}           
+
+#img-top {
+    vertical-align: top; /* Alinha a imagem com o topo da linha */
+}
+
+#img-text-top {
+    vertical-align: text-top; /* Alinha a imagem com o topo do texto */
+}
+
+#img-middle {
+    vertical-align: middle; /* Alinha a imagem com o meio da linha */
+}  
+
+#img-bottom {
+    vertical-align: bottom; /* Alinha a imagem com a parte inferior da linha */
+}       
+
+#img-text-bottom {
+    vertical-align: text-bottom; /* Alinha a imagem com a parte inferior do texto */
+} 
+
+#ltr {
+    direction: ltr; /* Define a direção do texto da esquerda para a direita */
+}   
+
+#rtl {
+    direction: rtl; /* Define a direção do texto da direita para a esquerda */
+}  
+
+.unicode-bidi_normal {
+    unicode-bidi: bidi-override; /* Força a ordem de exibição do texto */
+}
+
+.unicode-bidi_embed {
+    unicode-bidi: embed; /* Cria um contexto de empacotamento para o texto */
+}       
+
+.unicode-bidi_isolate {
+    unicode-bidi: isolate; /* Cria um contexto isolado para o texto */
+}       
+
+.unicode-bidi_isolate-override {
+    unicode-bidi: isolate-override; /* Cria um contexto isolado e força a ordem de exibição do texto */
+}   
+.unicode-bidi_plaintext {
+    unicode-bidi: plaintext; /* Exibe o texto como se fosse plano, sem considerar a direção */
+}   
+
+.unicode-bidi_bidi-override {
+    unicode-bidi: bidi-override; /* Força a ordem de exibição do texto */
+}   
+
+.unicode-bidi_inherit {
+    unicode-bidi: inherit; /* Herda a propriedade unicode-bidi do elemento pai */
+}
+
+.unicode-bidi_initial {
+    unicode-bidi: initial; /* Define a propriedade unicode-bidi para o valor inicial */
+}   
+
+.unicode-bidi_unset {
+    unicode-bidi: unset; /* Remove qualquer valor definido para a propriedade unicode-bidi */
+}

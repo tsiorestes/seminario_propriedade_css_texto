@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Spacing</title>
+    <link rel="stylesheet" href="spacing.css">
+</head>
+<body>
+
+    <h1>6 TEXT SPACING/ ESPAÇAMENTO DE TEXTO</h1>
+
+    <p class=" texto"> 
+        Expaçamento de texto. teria como função organizar o texto de varias maneiras para fazer ele mais facil de se ler.<br>
+        E o fazer ficar mais formal. <br>
+    </p>
+
+
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+
+
+
+                    <h2>6.1 Text Indentation</h2>
+            <p> Esta CSS serveria para dar um recuo na primeira linha ao texto. <br>
+                E esta seria o seu aloritimo <strong> #recuo {text-indent: 50px;}</strong>
+                Caso o seu valor <strong>px</strong> seja negativo, o recuo ira para a esquerda<br>
+                você pode colocar o valor em % ou em Cm caso lide melhor com diferentes definiçoes numericas. <br>
+            
+            </p>
+            <p id="recuo"> 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esserem <br>
+                cum nesci unt et molestias! Quod quaerat assumenda laudantium vero ex? <br>
+
+            </p>
+
+            <p id="recuo2"> 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esserem <br>
+                cum nesci unt et molestias! Quod quaerat assumenda laudantium vero ex? <br>
+
+            </p>
+
+            <p id="recuo3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esserem <br>
+                cum nesci unt et molestias! Quod quaerat assumenda laudantium vero ex? <br>
+            </p>
+
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+
+                    <h2>6.2 Letter Spacing </h2>
+            <p>Este algoritimo é usado para modificar o espaçamento entre caracteres de um texto. Podendo alonger eles ou os encurtar
+            Esta seria sua conta <strong> #spacing1 {letter-spacing: 5px;} </strong> <br> 
+            Caso queira diminuir o expaçamento é so colocar algum numero negativo em sua variavel. <br>
+            </p>
+            <p id="spacing1">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esserem <br>
+            </p>
+
+            <p id="spacing2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esserem <br>
+            </p>
+
+            
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+
+
+                    <h2>6.3 Line Height </h2>
+            <p>Este CSS serve para alterar a altura da linha de maneiras diversas. <br>
+            Esta seria sua conta <strong> #altura1 {line-height: 0.8;}</strong> <br>
+            diferente de outros algoritimos, não é possivel colocar um valor negativo neste algoritimo. Mas se haveria um valor "norma"<br>
+            </p>
+            <p id="altura1"> 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esse rem cum nesci <br>
+                unt et molestias! Quod quaerat assumenda laudantium vero ex? <br>
+            </p>
+
+            <p id="altura2"> 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esse rem cum nesci <br>
+                unt et molestias! Quod quaerat assumenda laudantium vero ex? <br>
+            </p>
+
+            <p id="alturanormal"> 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus <br>
+                dicta laudantium placeat culpa debitis, atque perferendis fugiat esse rem cum nesci <br>
+                unt et molestias! Quod quaerat assumenda laudantium vero ex? <br>
+            </p>
+
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+
+
+                    <h2>6.4 Word Spacing </h2>
+            <p>Esta propriedade, é usada para ditar o tamanho do espaço das palabras num texto.<br> 
+            <strong> #espaco_entre_palavra1 {word-spacing: 10px;} </strong> <br>
+             Tambem teria como colocar o valor normal neste. <br>
+            </p>
+            <p id="espaco_entre_palavra1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus </p>
+
+            <p id="espaco_entre_palavra2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus </p>
+
+            <p id="espaco_entre_palavra3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio delectus </p>
+
+
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+
+
+                    <h2>6.5 White Space </h2>
+            <p>
+                Esta propriedade de CSS espexifica o expaço em branco é usado. principalmente dentro de um <strong> <div> </strong> <br>
+                Existem 5 valores dentro desta propriedado.<br>
+                O <strong> </strong>normal, no qual não altera em nada.<br>
+                O <strong>nowrap</strong> no qual otexto não vai se enrolar na caixa por si só. ele vai precisar de uma <strong>tag br</strong> para dar uma linha. <br>
+                <strong>pre</strong> o texto branco é preservado pelo brownser, o texto so vai dar linhas em quebra linhas, ele funciona da mesma maneira que a<strong>tag pre</strong> do HTML.<br>
+                <strong>pre-line</strong> A sequencia de espaço em branco vai se amontuar em um unico espaço em branco, o texto vai dar uma volta quando necessario, e com quebra de linhas.<br>
+                <strong>pre-wrap</strong>O expaçamento em branco vai ser preservado pelo brownser, o texto so vai se virar quando necessario. e numa quebra de linhas. <br>
+            </p>
+<br>
+<br>Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks
+
+            <div id="didLOCO1" class="branco1">  
+                Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Optio delectus dicta laudantium placeat culpa debitis, a
+                tque perferendis fugiat esse rem cum nesci unt et molestias! Q
+                uod quaerat assumenda laudantium vero ex? Lorem ipsum doloreat 
+            </div>
+
+<br>
+<br>
+
+            <div id="didLOCO2" class="branco2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Optio delectus dicta laudantium placeat culpa debitis, a
+                tque perferendis fugiat esse rem cum nesci unt et molestias! Q
+                uod quaerat assumenda laudantium vero ex? Lorem ipsum doloreat 
+            </div>
+        
+<br>
+<br>
+
+            <div id="didLOCO3" class="branco3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Optio delectus dicta laudantium placeat culpa debitis, a
+                tque perferendis fugiat esse rem cum nesci unt et molestias! Q
+                uod quaerat assumenda laudantium vero ex? Lorem ipsum doloreat 
+           </div>
+
+<br>
+<br>
+
+<div id="didLOCO4" class="branco4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Optio delectus dicta laudantium placeat culpa debitis, a
+                tque perferendis fugiat esse rem cum nesci unt et molestias! Q
+                uod quaerat assumenda laudantium vero ex? Lorem ipsum doloreat 
+           </div>
+
+<br>
+<br>
+
+<div id="didLOCO5" class="branco5">
+                Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Optio delectus dicta laudantium placeat culpa debitis, a
+                tque perferendis fugiat esse rem cum nesci unt et molestias! Q
+                uod quaerat assumenda laudantium vero ex? Lorem ipsum doloreat 
+           </div>
+
+    
+</body>
+</html>

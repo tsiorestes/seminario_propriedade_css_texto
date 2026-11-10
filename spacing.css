@@ -1,0 +1,94 @@
+#recuo {
+  text-indent: 50px;
+}
+#recuo2 {
+  text-indent: -20em;
+}
+#recuo3 {
+  text-indent: 30%;
+}
+
+
+
+
+
+
+#spacing1 {
+  letter-spacing: 5px;
+}
+#spacing2 {
+  letter-spacing: -3px;
+}
+
+
+
+
+
+
+#altura1 {
+  line-height: 0.9;
+}
+#altura2 {
+  line-height: 3.8;
+}
+#alturanormal {
+  line-height: normal;
+}
+
+
+
+
+#espaco_entre_palavra1 {
+  word-spacing: 10px;
+}
+#espaco_entre_palavra2 {
+  word-spacing: -4px;
+}
+#espaco_entre_palavra2 {
+  word-spacing: normal;
+}
+
+
+#didLOCO1 {
+  height:300px;
+  Width: 300px;
+  background-color:rgb(43, 146, 129);
+}
+#didLOCO2 {
+  height:300px;
+  Width: 300px; 
+  background-color: rgb(43, 146, 129);
+}
+#didLOCO3 {
+  height:300px; 
+  Width: 300px;
+  background-color: rgb(43, 146, 129);
+}
+#didLOCO4 {
+  height:300px; 
+  Width: 300px;
+  background-color: rgb(43, 146, 129);
+}
+#didLOCO5 {
+  height:300px; 
+  Width: 300px;
+  background-color: rgb(43, 146, 129);
+}
+
+
+.branco1 {
+  white-space: normal;
+}
+.branco2 {
+  white-space: nowrap;
+}
+.branco3 {
+  white-space: pre;
+}
+.branco4 {
+  white-space: pre-line;
+}
+.branco5 {
+  white-space: pre-wrap;
+}
+
